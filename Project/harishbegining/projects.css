@@ -1,0 +1,69 @@
+.img:hover{
+    height:350px;
+    width:500px;
+}
+.containers{
+    display:flex;
+    /* flex-wrap:nowrap; */
+    justify-content:space-evenly;
+    margin-top:10px;
+}
+.box{
+    width:390px;
+    height:300px;
+    /* background-image: url("sunny.png"); */
+    /* background-repeat:no-repeat; */
+    
+    /* background-color: red;     */
+}
+.colw{
+    background-image:url('sunny.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.cols{
+    background-image:url('wrom.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.colv{
+    background-image:url('frog.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.colw:hover{
+    height:350px;
+}
+.cols:hover{
+    height:350px;
+}
+.colv:hover{
+    height:350px;
+}
+.containerz{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+.boxi{
+    width:390px;
+    height:230px;
+    text-align:justify;
+    text-justify:inter-word;
+    font-family: adobe-clean,Helvetica,sans-serif;font-weight:400;line-height:1.75rem;color:#707070;
+}
+
+#mass{
+    animation-name:boss;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+    @keyframes boss {
+        0%{left:0px;top:0px;} 
+        50%{left:300px;}  
+        80%{left:700px;top:0px}
+        90%{left:1000px;top:0px}
+         
+
+    }
+
