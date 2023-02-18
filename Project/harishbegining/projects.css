@@ -66,4 +66,11 @@
          
 
     }
+    #don{
+        background-image: url('school.png');
+        width:300px;
+        height:400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
